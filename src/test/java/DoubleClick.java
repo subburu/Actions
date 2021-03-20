@@ -26,13 +26,14 @@ public class DoubleClick {
 		((JavascriptExecutor) driver)
 	     .executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		
-		Thread.sleep(2000);
+	
 		
 		Actions actions = new Actions(driver);
 		
 		WebElement button = driver.findElement(By.id("testdoubleclick"));
 		
 		actions.doubleClick(button).perform();
+		
 		
 	}
 

@@ -33,6 +33,8 @@ public class ClickAndHold {
 		wait.until(ExpectedConditions.elementToBeClickable(homeMenu));
 		wait.until(ExpectedConditions.elementToBeClickable(homeMenu));
 		actions.release(homeMenu).build().perform();
+		System.out.println("Test");
+		System.out.println("Testing");
 
 	}
 
